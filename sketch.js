@@ -1,10 +1,10 @@
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   background(0);
   noStroke();
 
-  for (let d = 0;d < 800;d += 100){
-  for(let c = 0;c < 800;c += 100){
+  for (let d = 0;d < windowWidth;d += 100){
+  for(let c = 0;c < windowHeight;c += 100){
     fill(2,254,255);
     rect(d,c,100,100);
     fill(0,255,5);
@@ -21,8 +21,8 @@ function setup() {
   }
 
 //Another color scheme
-for (let x = 100;x < 800;x += 200){
-  for(let y = 0;y < 800;y += 200){
+for (let x = 100;x < windowWidth;x += 200){
+  for(let y = 0;y < windowHeight;y += 200){
   fill(0,0,254);
   rect(x,y,100,100);
   fill(0,0,0);
@@ -36,8 +36,8 @@ for (let x = 100;x < 800;x += 200){
   arc(x + 75, y + 75, 50, 50, 1, 4);
 }
 }
-for (let x = 0;x < 800;x += 200){
-  for(let y = 100;y < 800;y += 200){
+for (let x = 0;x < windowWidth;x += 200){
+  for(let y = 100;y < windowHeight;y += 200){
   fill(0,0,254);
   rect(x,y,100,100);
   fill(0,0,0);
