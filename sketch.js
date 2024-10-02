@@ -15,7 +15,7 @@ function setup() {
     ellipse(d + 75, c + 75, 50, 50);
     fill(255);
     ellipseMode(DEGREES); 
-    arc(d + 75, c + 75, 50, 50, 1, 4);
+    arc(d + 75, c + 75, 50, 50, 0.8, 3.93);
 
   }
   }
@@ -33,7 +33,7 @@ for (let x = 100;x < windowWidth;x += 200){
   ellipse(x + 75, y + 75, 50, 50);
   fill(255,1,253);
   ellipseMode(DEGREES); 
-  arc(x + 75, y + 75, 50, 50, 1, 4);
+  arc(x + 75, y + 75, 50, 50, 0.8, 3.93);
 }
 }
 for (let x = 0;x < windowWidth;x += 200){
@@ -48,7 +48,7 @@ for (let x = 0;x < windowWidth;x += 200){
   ellipse(x + 75, y + 75, 50, 50);
   fill(255,1,253);
   ellipseMode(DEGREES); 
-  arc(x + 75, y + 75, 50, 50, 1, 4);
+  arc(x + 75, y + 75, 50, 50, 0.8, 3.93);
 }
 }
 
